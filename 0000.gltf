@@ -1,1 +1,111 @@
-{"accessors" : [{"bufferView" : 0, "byteOffset" : 0, "componentType" : 5125, "count" : 432564, "type" : "SCALAR", "max" : [375023], "min" : [0]}, {"bufferView" : 1, "byteOffset" : 0, "componentType" : 5126, "count" : 375024, "type" : "VEC3", "max" : [95, 101.050003051758, 12.8295946121216], "min" : [-143.5, -259, -429.605255126953]}, {"bufferView" : 1, "byteOffset" : 12, "componentType" : 5126, "count" : 375024, "type" : "VEC3", "max" : [1.00000441074371, 1.00000441074371, 1.00000441074371], "min" : [-1.00000441074371, -1.00000441074371, -1.00000441074371]}], "asset" : {"generator" : "Aspose.3D 20.1", "version" : "2.0"}, "buffers" : [{"uri" : "buffer.bin", "byteLength" : 10730840}], "bufferViews" : [{"buffer" : 0, "byteOffset" : 0, "byteLength" : 1730256, "target" : 34963}, {"buffer" : 0, "byteOffset" : 1730260, "byteLength" : 9000576, "byteStride" : 24, "target" : 34962}], "meshes" : [{"primitives" : [{"attributes" : {"POSITION" : 1, "NORMAL" : 2}, "indices" : 0, "mode" : 4}]}], "nodes" : [{"mesh" : 0, "name" : ""}], "scene" : 0, "scenes" : [{"nodes" : [0]}]}
+{
+    "asset": {
+        "generator": "COLLADA2GLTF",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "children": [
+                1
+            ],
+            "name": "Y_UP"
+        },
+        {
+            "mesh": 0,
+            "name": "node_1"
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2
+                    },
+                    "indices": 0,
+                    "mode": 4
+                }
+            ],
+            "name": "mesh_1"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 432564,
+            "max": [
+                310080
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 310081,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 3720972,
+            "componentType": 5126,
+            "count": 310081,
+            "max": [
+                95.0,
+                101.0500030517578,
+                12.829594612121582
+            ],
+            "min": [
+                -143.5,
+                -259.0,
+                -429.6052551269531
+            ],
+            "type": "VEC3"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 7441944,
+            "byteLength": 1730256,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 7441944,
+            "byteStride": 12,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 9172200,
+            "uri": "00000.bin"
+        }
+    ]
+}
